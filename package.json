@@ -11,7 +11,9 @@
     "build-compponents": "yarn workspace @letshang/components build",
     "start-expo": "yarn workspace app start",
     "start-web": "yarn workspace web dev",
-    "start-backend": "yarn workspace backend start"
+    "start-backend": "yarn workspace backend start",
+    "app-prebuild": "yarn workspace app prebuild",
+    "build-web": "yarn workspace web build"
   },
   "workspaces": [
     "apps/*",
